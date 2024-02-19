@@ -5,9 +5,10 @@ import { Routes, Route } from "react-router-dom";
 import LoginPage from "./pages/LoginPage";
 import HomePage from "./pages/HomePage";
 import ResetPassword from "./pages/ResetPassword";
-import ChangePassword from "./pages/ChangePassword";
+import ChangePassword from "./components/ChangePassword";
 import Notes from "./components/Notes";
 import AddNotes from "./components/AddNotes";
+import Settings from "./pages/Settings";
 
 const App = () => {
   return (
@@ -20,6 +21,7 @@ const App = () => {
         <Route path="/change-password"  element={<ChangePassword/>}/>
         <Route path={"/notes"} element={<Notes/>}/>
         <Route path={"/add-notes"} element={<AddNotes/>}/>
+        <Route path={"/settings"} element={<Settings/>}/>
 
       </Routes>
       {/* <SignUpPage/> */}
