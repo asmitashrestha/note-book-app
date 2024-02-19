@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const LoginPage = () => {
   return (
     <div className="bg-gray-200 h-full">
-      <div className="flex h-[500px] w-[1100px] px-[10px] py-5 ml-[4.5rem]">
+      <div className="flex  h-[500px] w-[1100px] px-[10px] py-5 ml-[4.5rem]">
         <div className="bg-cyan-500  h-[500px] w-[600px] ">
           <div className="justify-center text-center flex mt-32 mb-11">
             <img src={me} className="rounded-sm" />
@@ -78,6 +78,9 @@ const LoginPage = () => {
                   </button>
                 </div>
               </form>
+               <div className="flex text-center justify-center mt-5">
+                <Link to={'/reset-password'} className="text-white bg-red-500 w-[380px] rounded p-1.5">Forget Password</Link>
+               </div>
 
               <p className="mt-5 text-center text-sm text-white">
                 Don't have an account

@@ -3,7 +3,7 @@ import me from "../assets/person.png";
 import { Link } from "react-router-dom";
 const SignUpPage = () => {
   return (
-    <div className="bg-gray-200 h-full">
+    <div className="bg-gray-200 h-full mt-7">
       <div className="flex h-[500px] w-[1100px] px-[10px] py-5 ml-[4.5rem]">
         <div className="bg-cyan-500  h-[500px] w-[600px] ">
           <div className="justify-center text-center flex mt-32 mb-11">
